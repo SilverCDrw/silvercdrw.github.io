@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "paintbrush";
+	src: url("font/paintbrush.ttf");
+	src: url("font/paintbrush.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+* {
+  font-family: "paintbrush";
+  font-style: italic;
+}
