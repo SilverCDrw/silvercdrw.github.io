@@ -1,7 +1,13 @@
 <head>
+	<style>body {opacity: 0;}</style>
+	<script type="text/javascript">
+		function makeid(length) {var result           = '';var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';var charactersLength = characters.length;for ( var i = 0; i < length; i++ ) {result += characters.charAt(Math.floor(Math.random() * charactersLength));}return result;}
+
+		function loadcss(file){var link = document.createElement( "link" );link.href = file + "?" + makeid(24);link.type = "text/css";link.rel = "stylesheet";document.getElementsByTagName( "head" )[0].appendChild( link );}
+	loadcss("styles/master.css")
+	loadcss("font/font-face.css")
+	</script>
 	<title>Мой тестовый сайт</title>
-	<link rel="stylesheet" href="font/font-face.css">
-	<link rel="stylesheet" href="styles/master.css">
 </head>
 <body>
 	<div class="mynick">
