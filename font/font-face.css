@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "paintbrush";
+	src: url("paintbrush.ttf");
+	src: url("paintbrush.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "helveticaneueui";
+	src: url("helveticaneueui.ttf");
+	src: url("helveticaneueui.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "romic_medium";
+	src: url("romic_medium.ttf");
+	src: url("romic_medium.ttf") format("truetype");
+}
