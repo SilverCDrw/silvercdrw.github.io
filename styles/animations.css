@@ -1,0 +1,32 @@
+@keyframes show {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+@keyframes slide-from-left {
+	from {
+		left: -100px;
+		opacity: 0;
+	}
+	to {
+		left: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes bg-nick-appear {
+	0% {
+		/* border-color: transparent; */
+	}
+	100% {
+		box-shadow: 0 0 10px rgb(255, 0, 0);
+		/*border-color: #b63c3c; */
+		backdrop-filter: blur(5px);
+		background-color: #ffffff11;
+	}
+}
