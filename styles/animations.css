@@ -19,6 +19,19 @@
 	}
 }
 
+@keyframes slide-from-top {
+	0% {
+		height: 0em;
+	}
+	99% {
+		height: calc(1em + 3px);
+	}
+	100% {
+		opacity: 1;
+		height: 100%;
+	}
+}
+
 @keyframes bg-nick-appear {
 	0% {
 		/* border-color: transparent; */

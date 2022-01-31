@@ -42,18 +42,23 @@ body {
 
 .mynick h2{
 	animation-delay: 1.0s;
-	color: rgb(153, 153, 153);
+	color: rgba(255, 255, 255, 0.602);
+	font-weight: 600;
+}
+
+.mynick h3{
+	overflow: hidden;
+	height: 0em;
+	animation-name: slide-from-top;
+	animation-delay: 5.0s;
+	color: rgba(255, 255, 255, 0.602);
 	font-weight: 600;
 }
 
 .mynick {
-	margin-top: 10vh;
+	margin-top: 5vh;
 	animation-name: bg-nick-appear;
 	animation-duration: 2s;
 	animation-delay: 0s;
-	border-color: transparent;
-	border-width: 5px;
-	border-radius: 0px;
-	border-style:outset;
 	padding: 10px;
 }
