@@ -34,11 +34,11 @@ body {
 	opacity: 0;
 	animation-name: slide-from-left;
 	animation-duration: 1s;
-	animation-delay: 0s;
+	animation-delay: 0.5s;
 }
 
 .mynick h2{
-	animation-delay: 0.5s;
+	animation-delay: 1.0s;
 }
 
 .mynick {
